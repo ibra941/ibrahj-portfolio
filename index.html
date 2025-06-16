@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ibrahj | Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+<style>
+.typing {
+  font-family: monospace;
+  font-size: 2rem;
+  color: #00ffcc;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #00ffcc;
+  animation: typing 3s steps(22), blink 0.8s infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 22ch }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
+</style>
+</head>
+<body>
+
+  <header>
+    <div class="container nav-container">
+      <h1 class="logo typing">Ibrahj</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">About</a></li>
+          <li><a href="pages/projects.html">Projects</a></li>
+          <li><a href="pages/blog.html">Blog</a></li>
+          <li><a href="pages/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+        <button id="themeToggle" class="theme-btn">🌙</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card" id="about">
+      <h2>About Me</h2>
+      <p>I’m Ibrahj, a cybersecurity enthusiast with a passion for ethical hacking, CTFs, and breaking stuff (legally). I study vulnerabilities, analyze systems, and dream in terminal commands.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Ibrahj. No systems were harmed in the making of this portfolio.</p>
+  </footer>
+ <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
+  <script src="assets/js/script.js"></script>
+
+</body>
+</html>
